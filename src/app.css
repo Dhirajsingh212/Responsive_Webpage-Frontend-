@@ -1,0 +1,218 @@
+.app {
+  display: flex;
+  background-color: #308d46;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar {
+  flex: 4;
+}
+
+.apptitle {
+  padding-top: 0.5vh;
+  padding-left: 1vh;
+  text-transform: uppercase;
+}
+
+.appul {
+  list-style-type: none;
+  display: flex;
+  padding-right: 2vh;
+  padding-top: 0;
+  margin-bottom: 1vh;
+}
+
+.appli {
+  font-family: sans-serif;
+  margin: 0 2vh 0 2vh;
+}
+
+.appbtn {
+  border: none;
+  background-color: inherit;
+  color: white;
+  padding-right: 2vh;
+}
+
+.dropdown {
+  background-color: white;
+  width: 75vh;
+  position: fixed;
+  margin-top: 6vh;
+  padding-left: 4vh;
+}
+
+.appdrop {
+}
+
+.appdropli {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  font-size: 15px;
+  font-family: sans-serif;
+  position: relative;
+  right: 4vh;
+  border-left: 2px solid blue;
+  list-style-type: none;
+  padding-left: 1vh;
+  background-color: #ddffff;
+}
+
+.appdropalt {
+  display: none;
+}
+
+@media screen and (max-width: 426px) {
+  .appul {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .appbtn {
+    display: none;
+  }
+  .appdrop {
+    display: none;
+  }
+}
+
+.appheader {
+  padding-top: 8vh;
+  color: #f3d9c6;
+  height: 80vh;
+  width: 100%;
+  background-color: #0c0e1d;
+  display: flex;
+}
+
+.appheaderpara {
+  flex: 1;
+  padding-left: 7vh;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.appheaderpara h1 {
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+.appheaderpara p {
+  text-align: left;
+  font-family: sans-serif;
+  margin-top: 13vh;
+}
+
+.appheader img {
+  flex: 1;
+  width: 60%;
+  height: auto;
+}
+
+.appheader p {
+  flex: 1;
+}
+
+@media screen and (max-width: 915px) {
+  .appheader {
+    padding-top: 1vh;
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .appheaderpara {
+    padding-left: 2vh;
+  }
+
+  .appheaderpara p {
+    margin-top: 0;
+  }
+
+  .appheader img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.main {
+  padding-left: 0;
+  padding-top: 11vh;
+  margin: auto;
+  display: flex;
+}
+
+.main img {
+  flex: 5;
+  height: 50%;
+  width: 40%;
+  border-radius: 3vh;
+}
+
+.mainpara {
+  flex: 7;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainpara p {
+  color: grey;
+  font-family: sans-serif;
+  font-size: 3vh;
+  line-height: 5vh;
+  padding-left: 2vh;
+}
+
+.mainparabtn {
+  padding: 1vh;
+  align-self: end;
+  width: 20%;
+  background-color: #308d46;
+  border: none;
+  color: whitesmoke;
+  font-family: sans-serif;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 1vh;
+}
+
+@media screen and (max-width: 915px) {
+  .main {
+    display: block;
+  }
+  .main img {
+    width: 100%;
+    height: auto;
+  }
+  .mainpara p {
+    padding-top: 3vh;
+    text-align: center;
+  }
+  .mainparabtn {
+    align-self: center;
+  }
+}
+
+.appfooter {
+  background-color: #308d46;
+  max-width: 200%;
+  margin: 10vh auto auto auto;
+  height: 30%;
+}
+
+.appfooter p {
+  padding-top: 2vh;
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.appfooter h6 {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
